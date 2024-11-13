@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('Imagenes/stadium3.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #bbb;
+    font-size: 1.2em;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.input-group input::placeholder {
+    color: #bbb;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.primary {
+    background-color: #007bff;
+}
+
+.secondary {
+    background-color: #555;
+}
+
+.forgot-password {
+    color: #bbb;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}

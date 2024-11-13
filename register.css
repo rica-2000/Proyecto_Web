@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Imagenes/stadium3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header .logo {
+    width: 100px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.header h2 {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.registration-form h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #0066ff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-register:hover {
+    background-color: #0051cc;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #4ea8ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

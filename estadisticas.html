@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azul Gol - Equipos</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="estadisticas.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">SoccerStar</h1>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="login.html" class="join-btn">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar torneo/equipo/jugador">
+        <button>🔍</button>
+    </div>
+
+    <!-- Tournament Title -->
+    <div class="tournament-title">
+        <h2>Torneo Intersemanal</h2>
+        <p>Inicio de los juegos 8:40 OCT-ENE 2025</p>
+    </div>
+    <!-- Teams Section -->
+    <section class="teams-section">
+        <div class="section-title">
+            <h2>EQUIPOS</h2>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <a href="Cheleros.html" class="swiper-slide team-card">
+                    Cheleros fc<br><img src="Imagenes/cheleros.jpeg" alt="Team Logo">
+                </a>
+                <a href="Nothinghamiedo.html" class="swiper-slide team-card">
+                    Nothinghamiedo<br><img src="Imagenes/Miedo.jpeg" alt="Team Logo">
+                </a>
+                <a href="Carnitas-el-Javi.html" class="swiper-slide team-card">
+                    Carnitas el Javi<br><img src="Imagenes/carnitas.jpg" alt="Team Logo">
+                </a>
+                <a href="Futbol-King.html" class="swiper-slide team-card">
+                    Futbol King<br><img src="Imagenes/King.jpeg" alt="Team Logo">
+                </a>
+                <a href="Vodka Juniors.html" class="swiper-slide team-card">
+                    Vodka Juniors<br><img src="Imagenes/Vodka.jpeg" alt="Team Logo">
+                </a>
+                <a href="Abuelos-FC.html" class="swiper-slide team-card">
+                    Abuelos FC<br><img src="Imagenes/Abuelos.png" alt="Team Logo">
+                </a>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <table class="tabla-clasificacion">
+        <thead>
+            <tr>
+                <th>Club</th>
+                <th>PJ</th>
+                <th>G</th>
+                <th>E</th>
+                <th>P</th>
+                <th>GF</th>
+                <th>GC</th>
+                <th>DG</th>
+                <th>Pts</th>
+                <th>Últimos 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="Imagenes/cheleros.jpeg" alt="Cheleros FC logo"> Cheleros FC</td>
+                <td>6</td>
+                <td>3</td>
+                <td>2</td>
+                <td>1</td>
+                <td>14</td>
+                <td>4</td>
+                <td>10</td>
+                <td>11</td>
+                <td class="ultimos-5">
+                    <span class="win"></span>
+                    <span class="win"></span>
+                    <span class="draw"></span>
+                    <span class="draw"></span>
+                    <span class="win"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Imagenes/King.jpeg" alt="Futbol King logo"> Futbol King</td>
+                <td>6</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>15</td>
+                <td>16</td>
+                <td>-1</td>
+                <td>8</td>
+                <td class="ultimos-5">
+                    <span class="lose"></span>
+                    <span class="draw"></span>
+                    <span class="lose"></span>
+                    <span class="win"></span>
+                    <span class="win"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Imagenes/Vodka.jpeg" alt="Vodka Juniors logo"> Vodka Juniors</td>
+                <td>5</td>
+                <td>3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>12</td>
+                <td>5</td>
+                <td>7</td>
+                <td>10</td>
+                <td class="ultimos-5">
+                    <span class="win"></span>
+                    <span class="lose"></span>
+                    <span class="win"></span>
+                    <span class="draw"></span>
+                    <span class="win"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Imagenes/Abuelos.png" alt="Abuelos FC logo">  Abuelos   FC  </td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>12</td>
+                <td>10</td>
+                <td>2</td>
+                <td>7</td>
+                <td class="ultimos-5">
+                    <span class="win"></span>
+                    <span class="win"></span>
+                    <span class="win"></span>
+                    <span class="draw"></span>
+                    <span class="win"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Imagenes/carnitas.jpg" alt="Carnitas el Javi logo"> Carnitas el Javi</td>
+                <td>5</td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td>6</td>
+                <td>7</td>
+                <td>-1</td>
+                <td>6</td>
+                <td class="ultimos-5">
+                    <span class="draw"></span>
+                    <span class="draw"></span>
+                    <span class="lose"></span>
+                    <span class="draw"></span>
+                    <span class="win"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Imagenes/Miedo.jpeg" alt="Nothinghamiedo logo"> Nothinghamiedo </td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>5</td>
+                <td>12</td>
+                <td>21</td>
+                <td>-9</td>
+                <td>3</td>
+                <td class="ultimos-5">
+                    <span class="win"></span>
+                    <span class="lose"></span>
+                    <span class="lose"></span>
+                    <span class="lose"></span>
+                    <span class="lose"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            640: { slidesPerView: 1, spaceBetween: 20 },
+            768: { slidesPerView: 2, spaceBetween: 30 },
+            1024: { slidesPerView: 3, spaceBetween: 40 },
+        }
+    });
+</script>
